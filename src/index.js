@@ -1,7 +1,7 @@
 import {KendoConfigBuilder} from './config-builder';
 import {RepeatStrategyLocator, ArrayRepeatStrategy} from 'aurelia-templating-resources';
 import 'jquery';
-import 'kendo.data.min';
+import 'kendo.data';
 
 export function configure(aurelia, configCallback) {
   let builder = aurelia.container.get(KendoConfigBuilder);
